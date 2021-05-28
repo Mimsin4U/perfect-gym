@@ -1,0 +1,167 @@
+
+/* --------------- For #Large_Desktop : ( 1440-2560px ) ---------------> */
+
+@media only screen and (min-width: 1200px){
+
+
+
+}
+
+
+
+/* --------------  #Laptop-Large : ( 1024 ) ---------------> */
+@media only screen and (min-width: 993px) and (max-width: 1199.98px) {
+
+    
+
+}
+
+
+/* --------------  #Laptop-Small : ( 768-992px )-----------------> */
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+    .slider {
+        background-size: 100% 100%;
+    }
+    
+
+    .client-img {
+        top: -40px;
+    }
+    .client-social-icons a i {
+        font-size: 17px;
+    }
+
+}
+
+
+
+/* ------------- #Tablet : ( 426-768px ) ---------------> --*/
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+
+    .slider {
+        background-size: 100% 100%;
+        min-height: 575px;
+    }
+
+    .topbar-contacts span {
+        margin-right: 7px;
+        font-size: 14px;
+    }
+
+    .topbar-social-icons a {
+        margin-left: 20px;
+    }
+    .topbar-social-icons a i {
+        font-size: 14px;
+    }
+
+    .slider1-content {
+        margin-top: 8rem;
+    }
+    .slider1-content span {
+        font-size: 25px;
+    }
+    .slider1-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .slider1-content p {
+        font-size: 14px;
+        line-height: 21px;
+        margin: 20px 0 20px 0;
+        text-align: justify;
+    }
+
+        /* Counter Responsive */
+    .counter {
+        flex-direction: column;
+    }
+    .counter .counter-item {
+        border: 1px solid gray;
+        border: 2px solid whitesmoke;
+        border-radius: 30%;
+        -webkit-border-radius: 30%;
+        -moz-border-radius: 30%;
+        -ms-border-radius: 30%;
+        -o-border-radius: 30%;
+    }
+
+    /* Gallery CSS  */
+
+    .client-social-icons a i {
+        font-size: 18px;
+    }
+
+}
+
+
+/* ------------- #Mobile : ( 320--425px ) --------------> */
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+
+    .topbar-contacts {
+        display: none;
+    }
+    .topbar-contacts span {
+        font-size: 12px;
+    }
+
+    .topbar-social-icons {
+        float: left;
+        margin-top: 0;
+    }
+    .topbar-social-icons a {
+        margin-left: 0;
+        margin-right: 25px;
+    }
+    .topbar-social-icons a i {
+        font-size: 14px;
+    }
+
+    .main-menu {
+        padding: 0;
+    }
+
+    .slider {
+        background-size: 100% 100%;
+        min-height: 400px;
+    }
+    .slider1-content span {
+        font-size: 12px;
+    }
+    .slider1-content h1 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+    .slider1-content p {
+        font-size: 10px;
+        margin: 10px 0 0 0;
+        line-height: 8px;
+        text-align: justify;
+    }
+
+
+        /* Counter Responsive */
+    .counter {
+        flex-direction: column;
+    }
+    .counter .counter-item {
+        border: 1px solid gray;
+        border: 2px solid whitesmoke;
+        border-radius: 30%;
+        -webkit-border-radius: 30%;
+        -moz-border-radius: 30%;
+        -ms-border-radius: 30%;
+        -o-border-radius: 30%;
+    }
+
+    .client-social-icons a i{
+        font-size: 16px;
+    }
+
+}
